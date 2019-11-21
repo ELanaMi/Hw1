@@ -4,14 +4,21 @@ import java.text.DecimalFormat;
 
 public class FuelConsumptionOptionB {
 
-    private Double fuelConsumptionFormula(Double x, Double y, Double z) {
-        Double way = x;
-        Double tank = y;
-        Double distance = z;
+    // Расширенная версия
+//    private Double fuelConsumptionFormula(Double x, Double y, Double z) {
+//        Double way = x;
+//        Double tank = y;
+//        Double distance = z;
+//
+//        Double fuelConsumption = (tank / way) * distance;
+//        return fuelConsumption;
+//    }
 
-        Double fuelConsumption = (tank / way) * distance;
-        return fuelConsumption;
+    // Сокращённая версия
+      private Double fuelConsumptionFormula(Double way, Double tank, Double distance) {
+        return  (tank / way) * distance;
     }
+
 
 @Test
     public void showFuelConsumption() {
