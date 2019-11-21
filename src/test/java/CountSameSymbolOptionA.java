@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class CountSameSymbolA {
+public class CountSameSymbolOptionA {
 
     public Integer countSameSymbol(String text, String symbol) {
         Integer foundedSymbols = 0;
