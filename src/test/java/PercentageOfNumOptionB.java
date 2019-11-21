@@ -18,3 +18,4 @@ public class PercentageOfNumOptionB {
         Assertions.assertEquals(1, caseB, "Wrong!");
     }
 }
+
